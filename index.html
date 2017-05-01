@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="css/style.min.css" type="text/css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery32.js"></script>
+  <script src="js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <title>Text Analyzer</title>
+</head>
+<body>
+  <div id="wrap">
+  <textarea id="text" wrap="soft"></textarea>
+  <button id="button">Start</button>
+  </div>
+  <div id="stats">
+
+    <div id="words">
+      <p class="sectWords">Number of Words:</p><p class="output" id="num_words"></p>
+      <p class="sectWords">Longest Word:</p><p class="output" id="long_word"></p>
+      <p class="sectWords">Shortest Word:</p><p class="output" id="short_word"></p>
+    </div>
+    <div id="search">
+      <p class="sectWords" id="searchtext">Search Word percentage:</p>
+      <input id="searchWord" type="text"></input><button id="button2">Search</button>
+      <div class="cont" id="userSearch"><div class="percent"><div class="wordPercent" id="wu"><p id="wordSearch"></p></div></div></div>
+  </div>
+    <div><p class="percWords" id="tabletitle">Most Used Words</p></div>
+
+    <div class="percentOutput" id="mostUsedWords">
+      <div class="cont"><div class="percent"><div class="wordPercent" id="w1"><p id="word1"></p></div></div></div>
+      <div class="cont"><div class="percent"><div class="wordPercent" id="w2"><p id="word2"></p></div></div></div>
+      <div class="cont"><div class="percent"><div class="wordPercent" id="w3"><p id="word3"></p></div></div></div>
+      <div class="cont"><div class="percent"><div class="wordPercent" id="w4"><p id="word4"></p></div></div></div>
+      <div class="cont"><div class="percent"><div class="wordPercent" id="w5"><p id="word5"></p></div></div></div>
+    </div>
+
+
+  </div>
+ </body>
+</html>
